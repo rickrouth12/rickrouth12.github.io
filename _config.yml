@@ -1,11 +1,11 @@
 # Site settings
 author: Patrick Routh
-title: 
+title: The Impact of a Single Human
 header-img: img/home-bg.png
 email: prouth@us.ibm.com
 copyright_name: Patrick Routh
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Why I Decided to Learn Data Science
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  rickrouth12
