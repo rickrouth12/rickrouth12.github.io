@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Optimizing Food Distribution Through Data Analytics"
-date:       2019-05-21 03:21:28 +0000
+date:       2019-05-20 23:21:29 -0400
 permalink:  optimizing_food_distribution_through_data_analytics
 ---
 
@@ -33,14 +33,14 @@ We can attack this question by first formulating a null and alternative hypothes
 **Alternative Hypothesis:** The average quantity of products ordered differs between orders with full price items and those with discounts applied.
 
 We will move forward and plan to conduct a two-sample, two-tailed set of statistical tests between the control group (fully priced orders) and experimental group (discounted orders) to validate our drawn conclusion or answer to the above question.
-![](https://imgur.com/REVFctY)
+![(https://imgur.com/REVFctY)]
 
 Key Assumptions to Check to Validate Our Conclusions:
 Normality, Equal Sample Size, Equal Variance
 
 **Normality**
-![](https://imgur.com/lu2ld7o)
-![](https://imgur.com/WWJXNEc)
+![(https://imgur.com/lu2ld7o)]
+![(https://imgur.com/WWJXNEc)]
  
 By confirming the similar variance and sample sizes we can then leverage a Student’s T-Test in order to effectively compare these two data sets. Here we find a p-value within the alpha threshold of 0.05. 
  
@@ -53,18 +53,18 @@ We can take our first question a step further by asking: Are some discount level
 **Null Hypothesis:** The average quantity of products ordered is the same for all discount levels.
 <br>
 **Alternative Hypothesis**: The average quantity of products ordered differs between orders with varying discount levels.
- ![](https://imgur.com/yezGZN5)
+ ![(https://imgur.com/yezGZN5)]
  
 To test our normality assumption, we will need to run normal tests for each of these discount levels. 
-![](https://imgur.com/vuQQ7fZ)
+![(https://imgur.com/vuQQ7fZ)]
  
 After running these tests, I have found that none of the data sets represent normal distributions. 
-![](https://imgur.com/z7rGANW)
+![(https://imgur.com/z7rGANW)]
  
 But, they do have similar measures of variance.
  
 In order to test the statistical significance, I will use Welch’s T-Test which provides a more forgiving comparison by increasing the degrees of freedom which are incorporated. 
-![](https://imgur.com/UTUGjjn)
+![(https://imgur.com/UTUGjjn)]
  
 The Welch’s T test results produce p-values all within the alpha threshold of 0.05. 
 
