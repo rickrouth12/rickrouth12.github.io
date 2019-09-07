@@ -1,15 +1,15 @@
 ---
 layout: post
 title:      "Choosing the Right Activation Function for your Artificial Neural Network"
-date:       2019-09-07 21:33:12 +0000
+date:       2019-09-07 17:33:13 -0400
 permalink:  choosing_the_right_activation_function_for_your_artificial_neural_network
 ---
 
 
 **Key Neural Network Components**
-Input Layer – This layer provides the input features or outside information to the network and simply passes it along to the hidden layer
-Hidden Layer – This insulated layer consists of internal neurons where simple or complex computations take place receiving information from the input layer and passing along computed results to the output layer
-Output Layer – This layer spits out information learned by the network as an outputted result
+* Input Layer – This layer provides the input features or outside information to the network and simply passes it along to the hidden layer
+* Hidden Layer – This insulated layer consists of internal neurons where simple or complex computations take place receiving information from the input layer and passing along computed results to the output layer
+* Output Layer – This layer spits out information learned by the network as an outputted result
 
 
 **What is an Activation Function and why do we use them?**
